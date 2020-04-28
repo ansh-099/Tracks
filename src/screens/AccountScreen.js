@@ -1,10 +1,16 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text,Button} from 'react-native';
 
-const AccountScreen = () =>{
-return (
-    <View> 
-           <Text>Hey Accounts</Text>
+const AccountScreen = ({navigation}) =>{
+return(
+    <View>
+        <Button
+        title= 'Press me'
+        onPress={()=>{
+            navigation.navigate('TrackCreate')
+        }}
+        /> 
+           <Text>Hey SignUp</Text>
     </View>
 
 );

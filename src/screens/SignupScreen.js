@@ -1,9 +1,15 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text, Button} from 'react-native';
 
-const SignupScreen = () =>{
+const SignupScreen = ({navigation}) =>{
 return (
-    <View> 
+    <View>
+        <Button
+        title= 'Press me'
+        onPress={()=>{
+            navigation.navigate('TrackListFlow')
+        }}
+        /> 
            <Text>Hey SignUp</Text>
     </View>
 

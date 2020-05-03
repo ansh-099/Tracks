@@ -1,10 +1,14 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View, Text, TouchableOpacity} from 'react-native';
 
-const SigninScreen = () =>{
+
+const SigninScreen = ({navigation}) =>{
+    const navi = navigation.getParam('navi');
 return (
     <View> 
-           <Text>Hey Signin</Text>
+          <TouchableOpacity onPress = {() => {navi.navigate('TrackList')}}>
+<Text>sshbhs</Text>
+        </TouchableOpacity>
     </View>
 
 );

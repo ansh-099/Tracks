@@ -10,9 +10,17 @@ return (
 );
 };
 
+
 const styles = StyleSheet.create(
 {
 
 });
+
+TrackDetailScreen.navigationOptions = ({navigation}) => {
+    return {
+        title: 'MyScreen',
+        headerLeft: null
+    };
+};
 
 export default TrackDetailScreen;

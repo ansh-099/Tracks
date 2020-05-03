@@ -7,7 +7,7 @@ const SigninScreen = ({navigation}) =>{
 return (
     <View> 
           <TouchableOpacity onPress = {() => {navi.navigate('TrackList')}}>
-<Text>sshcddcdbhcsss</Text>
+<Text>sshcddfscdbhcsss</Text>
         </TouchableOpacity>
     </View>
 

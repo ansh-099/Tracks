@@ -8,12 +8,12 @@ const trackRoutes = require('./routes/trackRoutes');
 const requireAuth = require('./middlewares/requireAuth');
 
 const app = express();
-
+const val = "s";
 app.use(bodyParser.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongoUri = '';
+const mongoUri = 'mongodb+srv://admin:adminpassword@cluster0-cl9wx.mongodb.net/test?retryWrites=true&w=majority';
 if (!mongoUri) {
   throw new Error(
     `MongoURI was not supplied.  Make sure you watch the video on setting up Mongo DB!`

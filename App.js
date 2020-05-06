@@ -9,9 +9,12 @@ import AccountScreen from './src/screens/AccountScreen';
 import TrackListScreen from './src/screens/TrackListScreen';
 import TrackDetailScreen from './src/screens/TrackDetailScreen';
 import {Provider as AuthProvider}  from './src/context/AuthContext'
+import {Provider as LocationProvider} from './src/context/LocationContext'; 
 import { setNavigator } from './src/navigationRef';
+import ResolveAuthScreen from './src/screens/ResolveAuthScreen';
 
 const switchNavigator = createSwitchNavigator({
+  ResolveAuth: ResolveAuthScreen,
   loginFlow : createStackNavigator({
     Signup: SignupScreen,
     Signin: SigninScreen
@@ -29,7 +32,10 @@ const switchNavigator = createSwitchNavigator({
 
 const App = createAppContainer(switchNavigator);
 
-export default () => (<AuthProvider>
+export default () => (
+  <LocationProvider>
+<AuthProvider>
 <App ref= {(navigator) => setNavigator(navigator)}/>
-</AuthProvider>);
+</AuthProvider>
+</LocationProvider>);
 

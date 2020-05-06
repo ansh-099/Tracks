@@ -1,13 +1,20 @@
-import React from 'react';
+import React ,{useEffect, useState} from 'react';
 import {StyleSheet, View, Text, Button} from 'react-native';
+import {withNavigationFocus} from 'react-navigation';
 
-const TrackListScreen = ({navigation}) =>{
+const TrackListScreen = ({navigation, isFocused}) =>{
+    // console.log(isFocused);
+    // console.log('yoyo')
+
+   
+
 return (
     <View>
         <Button
         title= 'Press me'
         onPress={()=>{
-            navigation.navigate('TrackDetail')
+            a = a-10;
+            console.log(a)
         }}
         /> 
            <Text>Hey SignUp</Text>
@@ -21,4 +28,4 @@ const styles = StyleSheet.create(
 
 });
 
-export default TrackListScreen;
+export default withNavigationFocus(TrackListScreen);

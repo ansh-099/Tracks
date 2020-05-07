@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect } from 'react';
 import {Accuracy, requestPermissionsAsync, watchPositionAsync } from 'expo-location';
 
 export default (shouldTrack, callback) => {
@@ -30,6 +30,12 @@ export default (shouldTrack, callback) => {
             setSub(null);
            
         }
-    }, [shouldTrack]);
+
+        return () => {
+            if(sub){
+                sub.remove();
+            }
+        };
+    }, [shouldTrack,callback]);
     return [err];
 };

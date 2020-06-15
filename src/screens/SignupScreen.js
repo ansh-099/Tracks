@@ -3,11 +3,11 @@ import {StyleSheet, View} from 'react-native';
 import {Context as AuthContext} from '../context/AuthContext';
 import AuthForms from '../components/AuthForms';
 import NavLink from '../components/NavLink';
-import { NavigationEvents } from 'react-navigation';
 
 
 const SignupScreen = () =>{
     const {state, signup, ClearErrorMessage, tryLocalSignin} = useContext(AuthContext);
+    
     useEffect(
         () => {
             tryLocalSignin();

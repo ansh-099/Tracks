@@ -39,7 +39,27 @@ Just Another Project- React Native-Tracking-Tracks
 </br>
 </br>
 ### Finally Added the record to DB:
-<a href="url"><img src="https://user-images.githubusercontent.com/35291991/81305565-1c297b80-909c-11ea-9ee0-18d786b7172e.jpeg" align="left" height="480" width="270"/>
+<a><img src="https://user-images.githubusercontent.com/35291991/81305565-1c297b80-909c-11ea-9ee0-18d786b7172e.jpeg" align="left" height="480" width="270"/>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 </br>
 
  * MongoDB

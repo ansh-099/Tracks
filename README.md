@@ -63,7 +63,7 @@ Just Another Project- React Native-Tracking-Tracks
 </br>
 </br>
 
-### All used
+### All used is
  * React Native with Context
  * React Native with Hooks
  * React Navigation

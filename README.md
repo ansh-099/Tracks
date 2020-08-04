@@ -61,8 +61,11 @@ Just Another Project- React Native-Tracking-Tracks
 </br>
 </br>
 </br>
+</br>
 
- * MongoDB
+### All used
  * React Native with Context
  * React Native with Hooks
  * React Navigation
+ * Nodejs
+ * MongoDB

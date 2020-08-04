@@ -1,9 +1,5 @@
 # Tracks:
 Just Another Project- React Native-Tracking-Tracks
- * MongoDB
- * React Native with Context
- * React Native with Hooks
- * React Navigation
 
  ### Summing all up:
 <a href="url"><img src="https://user-images.githubusercontent.com/35291991/81306086-b5589200-909c-11ea-860b-6dbaa9efed1b.gif" height="480" width="270"/>
@@ -45,3 +41,8 @@ Just Another Project- React Native-Tracking-Tracks
 ### Finally Added the record to DB:
 <a href="url"><img src="https://user-images.githubusercontent.com/35291991/81305565-1c297b80-909c-11ea-9ee0-18d786b7172e.jpeg" align="left" height="480" width="270"/>
 </br>
+
+ * MongoDB
+ * React Native with Context
+ * React Native with Hooks
+ * React Navigation

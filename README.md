@@ -17,14 +17,14 @@ Tracks utilizes the GPS and network-based location services of your smartphone i
         </tr>
 </table>  
 
-### Work with Tracks
+### Work with Tracks:
 * Sign up For Tracker.
 * Creating New Track Screen.
 * Let Tracks Record.
 * Finally Added the record to DB.
 
 
-### Everything used are
+### Everything used are:
  * React Native with Context
  * React Native with Hooks
  * React Navigation

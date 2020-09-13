@@ -10,12 +10,6 @@ Tracks utilizes the GPS and network-based location services of your smartphone i
  ### Summing all up
 <a href="url"><img src="https://user-images.githubusercontent.com/35291991/81306086-b5589200-909c-11ea-860b-6dbaa9efed1b.gif" height="460" width="250"/>
  
-### Work with Tracks
-* Sign up For Tracker.
-* Creating New Track Screen.
-* Let Tracks Record.
-* Finally Added the record to DB.
-
 <table>
         <tr>
 <td><img src = "https://user-images.githubusercontent.com/35291991/81305159-a02f3380-909b-11ea-8dde-8388d322f490.jpeg" height = "460" width="250"></td>
@@ -23,6 +17,13 @@ Tracks utilizes the GPS and network-based location services of your smartphone i
 <td><img src = "https://user-images.githubusercontent.com/35291991/81305565-1c297b80-909c-11ea-9ee0-18d786b7172e.jpeg" height = "460" width="250"></td>
         </tr>
 </table>  
+
+### Work with Tracks
+* Sign up For Tracker.
+* Creating New Track Screen.
+* Let Tracks Record.
+* Finally Added the record to DB.
+
 
 ### All used is
  * React Native with Context

@@ -24,7 +24,7 @@ Tracks utilises the GPS and network-based location services of your smartphone i
 * Finally Added the record to DB.
 
 
-### Everything used are:
+### Everything used is:
  * [React Native with Context](https://reactjs.org/docs/context.html)
  * [React Native with Hooks](https://reactjs.org/docs/hooks-intro.html)
  * [React Navigation v5](https://reactnavigation.org/docs/getting-started)

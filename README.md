@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/346c2ba7d2d841a48fc83734e3d2d682)](https://app.codacy.com/app/rob729/Minimal_ToDo?utm_source=github.com&utm_medium=referral&utm_content=rob729/Minimal_ToDo&utm_campaign=Badge_Grade_Dashboard)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c462858751a234cdcd08/maintainability)](https://codeclimate.com/github/rob729/Minimal_ToDo/maintainability)
 
-Tracks utilizes the GPS and network-based location services of your smartphone in order to determine most accurate geo-locations. Time and distance intervals for location tracking can be changed. This has an impact on the overall quality of recorded tracks and the battery lifetime. Exact location tracking is guaranteed even if the application is running in the background.
+Tracks utilises the GPS and network-based location services of your smartphone in order to determine most accurate geo-locations. Time and distance intervals for location tracking can be changed. This has an impact on the overall quality of recorded tracks and the battery lifetime. Exact location tracking is guaranteed even if the application is running in the background.
 ## Keep a record of your tracks.
 
  ### Summing all up
